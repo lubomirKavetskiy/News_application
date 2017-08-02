@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
-import Article from './Article'
+import ArticleList from './ArticleList'
 import {articles} from "./fixture"
 
-render(<Article article={articles[0]} onClick=""/>, document.getElementById('container'));
+render(<ArticleList art={articles} />, document.getElementById('container'));
