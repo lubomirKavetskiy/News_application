@@ -1,14 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
-class Comp extends React.Component {
-    render(){
-        return (
-            <p>Hi {this.props.name}</p>
-        );
-    }
-}
+import Article from './Article'
+import {articles} from "./fixture"
 
-render(
-    <Comp name="Lubmir"/>,
-    document.getElementById('container')
-);
+render(<Article article={articles[0]} onClick=""/>, document.getElementById('container'));

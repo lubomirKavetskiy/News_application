@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lubomirKavetskiy/React_basic_setup"
+    "url": "git+https://github.com/lubomirKavetskiy/News_application"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lubomirKavetskiy/React_basic_setup"
+    "url": "https://github.com/lubomirKavetskiy/News_application"
   },
-  "homepage": "https://github.com/lubomirKavetskiy/React_basic_setup",
+  "homepage": "https://github.com/lubomirKavetskiy/News_application",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.0",
