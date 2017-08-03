@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import CommentList from "./CommentList";
-import Comment from "./Comment";
+
 
 export default class Article extends Component {
     constructor(props) {
@@ -13,6 +13,7 @@ export default class Article extends Component {
 
     render() {
         const {isOpen} = this.state;
+        const {article} = this.props;
 
         return(
           <div>
@@ -38,8 +39,7 @@ export default class Article extends Component {
     }
 
 
-
-    toggleOpen = () => {;
+    toggleOpen = () => {
         this.setState({
             isOpen: !this.state.isOpen
         });

@@ -10,8 +10,6 @@ export default class CommentList extends Component {
         }
     }
 
-
-
     render() {
         const text = !this.state.isShow ? 'show comment' : 'hide comment';
 
