@@ -126,5 +126,11 @@ export const articles = [
                 "text": "Nisi sit nisi cillum dolor fugiat sint do nostrud ex cillum cupidatat. Culpa do duis non et excepteur labore dolor culpa qui tempor veniam. Ex labore deserunt qui sit aute ad incididunt do cupidatat eiusmod reprehenderit ad. Qui laborum qui voluptate velit et consectetur ipsum enim dolore minim. Est sint velit tempor reprehenderit. Qui consectetur ad minim consequat."
             }
         ]
+    },
+    {
+        "id": "56",
+        "date": "2016-06-08T19:03:23.000Z",
+        "title": "Commodo laborum",
+        "text": "Commodo laborum sit nostrud reprehenderit cupidatat officia laboris"
     }
 ]

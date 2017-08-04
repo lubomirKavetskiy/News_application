@@ -2,13 +2,14 @@ import React, {Component} from 'react';
 import Comment from "./Comment";
 
 export default class CommentList extends Component {
-    constructor(props) {
-        super(props);
+    static defaultProps = {
+        comments: []
+    };
 
-        this.state = {
-            isShow: false,
-        }
-    }
+    state = {
+        isShow: false,
+    };
+
 
     render() {
         const text = !this.state.isShow ? 'show comment' : 'hide comment';
@@ -26,7 +27,7 @@ export default class CommentList extends Component {
 
         const {comments} = this.props;
 
-        if(!comments || !comments.length) return <p>No comments yet</p>
+        if(!comments.length) return <p>No comments yet</p>
         return (
             <ul>
                 {comments.map(com => <li key={com.id}><Comment comment = {com} /></li>)}
