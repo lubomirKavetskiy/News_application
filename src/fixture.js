@@ -24,11 +24,6 @@ export const articles = [
                 "id": "fghjfghjfghj",
                 "user": "Jodi Humphrey",
                 "text": "Non amet amet ut magna culpa dolore consequat occaecat. Commodo adipisicing laboris voluptate enim mollit mollit anim aliquip deserunt nostrud deserunt cillum est. Ad eu cupidatat dolor nostrud et minim id in dolor occaecat ad magna elit. Laboris elit laboris aliquip Lorem reprehenderit id amet reprehenderit laborum minim incididunt cupidatat eiusmod."
-            },
-            {
-                "id": "ertyoertywte",
-                "user": "Joyce Weber",
-                "text": "Non qui Lorem qui commodo sint in esse non aliqua pariatur mollit veniam. Elit labore ad nisi anim adipisicing tempor velit commodo adipisicing ipsum ut. Nostrud cillum aliquip adipisicing id do occaecat est eiusmod adipisicing duis. Magna dolore et non nisi in non cillum officia elit non esse proident irure aute. Proident mollit amet enim dolore eiusmod dolor qui. Eiusmod reprehenderit cillum sit deserunt nostrud enim duis excepteur. Excepteur pariatur sunt in ipsum id minim est mollit."
             }
         ]
     },
