@@ -14,13 +14,12 @@ class Article extends Component {
     };
 
 
-
     render() {
         // const {isOpen} = this.state; *using decorator state => it will be props
         const {article, isOpen, toggleOpen} = this.props;
 
         return(
-          <div>
+          <div ref={this.setContainerRef}>
               <h3>{article.title}</h3>
               <button onClick={toggleOpen}>
                   {isOpen ? 'close' : 'open'}
@@ -29,6 +28,11 @@ class Article extends Component {
           </div>
         );
     }
+
+    setContainerRef = ref => {
+        this.container = ref;
+        console.log(ref);
+    };
 
     getBody() {
         // if (!this.state.isOpen)return null;   *using decorator state => it will be props

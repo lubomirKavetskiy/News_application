@@ -17,7 +17,6 @@ export default (OriginalComponent) => class WrapperComponent extends ReactCompon
 
     toggleOpen = (event) => {
         event && event.preventDefault && event.preventDefault();
-        console.log('---', event);
         this.setState({
             isOpen: !this.state.isOpen
         });
